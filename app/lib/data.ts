@@ -10,6 +10,7 @@ import {
 import { formatCurrency } from './utils';
 
 const sql = postgres(process.env.DATABASE_URL!, { ssl: 'require' });
+console.log("✅ DATABASE_URL in runtime:", process.env.DATABASE_URL);
 
 export async function fetchRevenue() {
   try {
