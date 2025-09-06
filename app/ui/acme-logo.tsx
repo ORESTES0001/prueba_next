@@ -1,4 +1,4 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
+
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
@@ -10,7 +10,7 @@ export default function AcmeLogo() {
       <Image
                               src={"/Aldea Global.svg" }
                               
-                              width={600}
+                              width={204}
                               height={94}
                               alt={'profile picture' }
                             />
